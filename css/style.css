@@ -595,7 +595,7 @@ ul li::marker {
 
 @media (max-width:850px) {
     .container-width {
-        width: 96vw;
+        width: 95vw;
     }
 
     .logo img {
