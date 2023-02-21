@@ -180,12 +180,13 @@ input {
 }
 
 .intro-desc {
-    width: 50%;
+    width: 60%;
 }
 
 .intro-desc p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
+    font-size: 20px;
 }
 
 .intro-main {
@@ -251,7 +252,7 @@ ul {
 .adv-indiv p {
     color: white;
     font-weight: 250;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 
 }
 
@@ -322,7 +323,7 @@ ul {
 }
 
 .prob-block p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin-top: 30px;
     text-align: center;
 
@@ -341,7 +342,7 @@ ul {
 }
 
 .prob-ul {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin-top: 30px;
     padding: 0;
 }
@@ -452,7 +453,7 @@ ul li::marker {
 }
 
 .roadmap-block p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     /* width: 150px; */
     color: white;
     font-weight: lighter;
@@ -516,7 +517,7 @@ ul li::marker {
 }
 
 .table-row h3 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 
     font-weight: 500;
     font-size: 1.3rem;
@@ -559,7 +560,7 @@ ul li::marker {
     margin-left: -10px;
     display: flex;
     align-items: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1.3rem;
 }
 
@@ -581,7 +582,7 @@ ul li::marker {
     display: flex;
     color: white;
     align-items: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
 }
 
