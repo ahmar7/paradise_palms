@@ -553,6 +553,12 @@ ul li::marker {
     font-size: 1rem;
 }
 
+@media (max-width:1300px) {
+    .right-img img {
+        width: 400px;
+    }
+}
+
 @media (max-width:1024px) {
     .container-width {
         width: 95vw;
@@ -560,6 +566,18 @@ ul li::marker {
 
     .logo img {
         width: 381px;
+    }
+
+    .right-img img {
+        width: 350px;
+    }
+
+    .left-text h1 {
+        font-size: 1.7rem;
+    }
+
+    .left-text p {
+        font-size: 18px;
     }
 }
 
@@ -574,6 +592,28 @@ ul li::marker {
 }
 
 @media (max-width:768px) {
+    .header-flex {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 65px 0;
+        gap: 20px;
+    }
+
+    .right-img img {
+        width: 300px;
+    }
+
+    .left-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .right-img {
+        text-align: center;
+    }
+
     .nav-ul li {
         margin: 0 5px;
     }
