@@ -557,9 +557,21 @@ ul li::marker {
     .right-img img {
         width: 400px;
     }
+
+    .itro-img img {
+        width: 399px;
+    }
+
+    .intro-desc {
+        width: 58%;
+    }
 }
 
 @media (max-width:1024px) {
+    .itro-img img {
+        width: 350px;
+    }
+
     .container-width {
         width: 95vw;
     }
@@ -583,7 +595,7 @@ ul li::marker {
 
 @media (max-width:850px) {
     .container-width {
-        width: 97vw;
+        width: 96vw;
     }
 
     .logo img {
@@ -629,5 +641,22 @@ ul li::marker {
     .blue-btn {
         padding: 7px;
         font-size: 12px;
+    }
+
+    .intro-flex {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin-top: 50px;
+    }
+
+    .intro-desc {
+        width: 100%;
+    }
+
+    .intro-desc .intro-heading {
+        font-size: 1.4rem;
     }
 }
