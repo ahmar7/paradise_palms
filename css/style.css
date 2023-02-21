@@ -562,3 +562,27 @@ ul li::marker {
         width: 381px;
     }
 }
+
+@media (max-width:850px) {
+    .container-width {
+        width: 97vw;
+    }
+
+    .logo img {
+        width: 300px;
+    }
+}
+
+@media (max-width:768px) {
+    .nav-ul li {
+        margin: 0 5px;
+    }
+
+    .navBar {
+        flex-direction: column;
+    }
+
+    .nav-ul {
+        margin-top: 0;
+    }
+}
