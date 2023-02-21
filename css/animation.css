@@ -1,0 +1,27 @@
+.show-prob {
+    animation: mymove 0.7s forwards ease-in-out;
+}
+
+.hidden {
+    animation: myup 0.7s forwards ease-in-out;
+}
+
+@keyframes mymove {
+    from {
+        height: 0px;
+    }
+
+    to {
+        height: 300px;
+    }
+}
+
+@keyframes myup {
+    from {
+        height: 300px;
+    }
+
+    to {
+        height: 0px;
+    }
+}

@@ -1,0 +1,314 @@
+@font-face {
+    font-family: syncopateBold;
+
+
+    src: url(../font/syncopate-bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: syncopate;
+
+
+    src: url(../font/syncopate-regular.ttf);
+    font-weight: normal;
+}
+
+.container-width {
+    width: 90vw;
+    margin: 0 auto
+}
+
+.container-width-2 {
+    width: 86vw;
+    margin: 0 auto
+}
+
+body {
+
+
+    margin: 0;
+    font-family: syncopate;
+
+    padding: 0;
+
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+.main-container {
+    margin-bottom: 100px;
+}
+
+.navBar {
+    align-items: center;
+    display: flex;
+    padding: 15px 0 10px 0;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 450px;
+}
+
+.nav-ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.blue-btn {
+    background-color: #0082c0;
+    border-radius: 5px;
+    font-family: syncopateBold;
+    color: white;
+    font-size: 14px;
+
+    padding: 8px 10px;
+}
+
+.nav-ul img {
+    width: 40px;
+}
+
+.header-main {
+    background-color: #e5f2f9;
+}
+
+
+.header-flex {
+    height: 95vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-text h1 {
+    font-family: syncopateBold;
+    font-size: 1.9rem;
+}
+
+.left-text p {
+
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.right-img img {
+    width: 500px;
+}
+
+.intro-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro-heading {
+    font-family: syncopateBold;
+    margin: 30px 0;
+    margin-top: 50px !important;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.itro-img img {
+    width: 480px;
+}
+
+.intro-img {
+
+    width: 45%;
+}
+
+.intro-desc {
+    width: 45%;
+}
+
+.intro-desc p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.intro-main {
+    margin-bottom: 50px;
+}
+
+.adv-btc {
+    position: relative;
+    background-color: #0082c0;
+}
+
+.svg-rotate {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 0;
+    margin-top: -5px;
+}
+
+.adv-inner {
+    padding-top: 75px;
+    padding-bottom: 70px;
+}
+
+.btc-head {
+    font-family: syncopateBold;
+    font-size: 1.7rem;
+
+    color: white;
+}
+
+.curve-img img {
+    width: 100%;
+}
+
+.flex-adv {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+}
+
+.adv-ico img {
+    width: 60px;
+}
+
+.adv-indiv h3 {
+    color: white;
+    font-family: syncopateBold;
+    font-size: 1.2rem;
+    margin: 13px 0 18px 0;
+}
+
+.adv-indiv {
+    width: 320px;
+    margin: 0 50px;
+}
+
+.adv-indiv p {
+    color: white;
+    font-weight: 250;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.left-mar {
+    margin-left: 100px !important;
+}
+
+.prob-sol {
+    margin-top: 70px;
+    height: 100vh;
+    position: relative;
+}
+
+.prob-flex {
+    display: flex;
+
+    ;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.bond img {
+    width: 100%;
+}
+
+.prob-block {
+    width: 40%;
+}
+
+.prob-block h1 {
+    text-align: center;
+}
+
+.ico-prob {
+    background-color: #0082c0;
+    padding: 6px 10px 4px 10px;
+    color: white;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.prob-block p {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+
+
+}
+
+.hidden {
+    overflow: hidden;
+
+    height: 0;
+}
+
+.show-prob {
+    overflow: hidden;
+    /* height: max-content; */
+}
+
+.prob-ul {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    padding: 0;
+}
+
+.prob-ul li {
+    list-style: disc;
+}
+
+ul li::marker {
+    color: #0082c0 !important;
+}
+
+.prob-block {
+    min-height: 370px;
+}
+
+.prob-footer {
+    /* position: absolute;
+    bottom: 0;
+    text-align: center;
+    left: 0;
+    right: 0; */
+    text-align: center;
+}
+
+.prob-footer img {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.roadmap-area
