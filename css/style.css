@@ -377,6 +377,8 @@ ul {
 }
 
 .sol-blk li {
+    font-family: 'Ubuntu', sans-serif;
+
     justify-content: space-between;
     display: flex;
     padding-bottom: 0 !important;
@@ -384,6 +386,7 @@ ul {
     margin: 20px 0;
     color: #0082c0;
     font-size: 20px;
+    font-weight: 700;
     align-items: center;
 }
 
