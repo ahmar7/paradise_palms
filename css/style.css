@@ -585,4 +585,9 @@ ul li::marker {
     .nav-ul {
         margin-top: 0;
     }
+
+    .blue-btn {
+        padding: 7px;
+        font-size: 12px;
+    }
 }
