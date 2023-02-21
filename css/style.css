@@ -138,7 +138,7 @@ input {
 }
 
 .intro-desc .intro-heading {
-    margin: 15px 0;
+    margin: 30px 0;
     margin-top: 10px !important;
     font-size: 1.5rem;
 
@@ -150,6 +150,11 @@ input {
     margin-top: 50px !important;
 
     font-size: 1.7rem;
+}
+
+.prob-block .intro-heading {
+    margin-bottom: 50px !important;
+    text-align: center;
 }
 
 .itro-img img {
@@ -306,6 +311,7 @@ ul {
 .prob-block p {
     font-family: 'Poppins', sans-serif;
     margin-top: 30px;
+    text-align: center;
 
 
 }
@@ -463,7 +469,7 @@ ul li::marker {
     margin-top: 25px !important;
     color: #0082c0;
     width: 60%;
-    text-align: justify;
+    text-align: justify !important;
     line-height: 22px;
     margin: 0 auto;
     font-family: syncopateBold;
@@ -814,6 +820,19 @@ ul li::marker {
         width: 90%;
         margin: 0 auto;
     }
+
+    .roadmap-area {
+        padding-bottom: 50px;
+    }
+
+    .tokenomics p {
+        width: 90%;
+        text-align: justify !important
+    }
+
+    .chart img {
+        width: 100%;
+    }
 }
 
 @media (max-width:600px) {
@@ -823,5 +842,25 @@ ul li::marker {
 
     .btc-head {
         font-size: 1.3rem;
+    }
+
+    .intro-heading {
+        font-size: 1.5rem;
+    }
+
+    .tokenomics p {
+        width: 100%;
+    }
+
+    .table-row h3 {
+        font-size: 1rem;
+    }
+
+    .left-footer h1 {
+        font-size: 1.5rem;
+    }
+
+    .tw-link {
+        font-size: 1rem;
     }
 }
