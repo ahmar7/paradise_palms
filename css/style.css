@@ -152,6 +152,10 @@ input {
     font-size: 1.7rem;
 }
 
+.sup-text {
+    margin-top: 135px !important;
+}
+
 .prob-block .intro-heading {
     margin-bottom: 50px !important;
     text-align: center;
@@ -419,6 +423,7 @@ ul li::marker {
     color: white;
     /* margin-top: 50px !important; */
     font-size: 1.7rem;
+    text-align: center;
 }
 
 .roadmap-block h1 {
@@ -434,6 +439,7 @@ ul li::marker {
 .roadmap-flex {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .roadmap-block p {
@@ -453,7 +459,8 @@ ul li::marker {
 }
 
 .tokenomics {
-    margin-top: 80px;
+    margin-top: 135px;
+    margin-bottom: 107px;
 }
 
 .tokenomics h1 {
