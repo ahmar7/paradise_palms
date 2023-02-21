@@ -145,6 +145,7 @@ input {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 50px;
 }
 
 .intro-desc .intro-heading {
@@ -177,7 +178,7 @@ input {
 
 .itro-img {
 
-    width: 40%;
+    /* width: 40%; */
 }
 
 .intro-desc {
