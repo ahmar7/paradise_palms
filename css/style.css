@@ -725,6 +725,10 @@ ul li::marker {
 }
 
 @media (max-width:768px) {
+    .btc-head {
+        margin-left: 0;
+    }
+
     .flex-adv {
         flex-direction: column;
         gap: 40px;
