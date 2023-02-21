@@ -9,15 +9,25 @@ let toggleProb = () => {
   }
   prob.classList.toggle("hidden");
 };
-let toggleSol = () => {
-  let sol = document.getElementById("sol");
-  sol.classList.toggle("show-prob");
-  sol.classList.toggle("hidden");
-  let plus2 = document.getElementById("plus2");
-
-  if (plus2.innerHTML == "-") {
-    plus2.innerHTML = "+";
+let toggleProb1 = () => {
+  let prob = document.getElementById("prob1");
+  let plus = document.getElementById("plus1");
+  prob.classList.toggle("show-prob");
+  if (plus.innerHTML == "-") {
+    plus.innerHTML = "+";
   } else {
-    plus2.innerHTML = "-";
+    plus.innerHTML = "-";
   }
+  prob.classList.toggle("hidden");
+};
+let toggleProb2 = () => {
+  let prob = document.getElementById("prob2");
+  let plus = document.getElementById("plus2");
+  prob.classList.toggle("show-prob");
+  if (plus.innerHTML == "-") {
+    plus.innerHTML = "+";
+  } else {
+    plus.innerHTML = "-";
+  }
+  prob.classList.toggle("hidden");
 };

@@ -221,6 +221,10 @@ input {
     margin: 0 50px;
 }
 
+ul {
+    padding: 0;
+}
+
 .adv-indiv p {
     color: white;
     font-weight: 250;
@@ -249,21 +253,47 @@ input {
 }
 
 .bond img {
-    width: 100%;
+    width: auto;
+    display: inline;
 }
 
 .prob-block {
     width: 40%;
 }
 
-.prob-block h1 {
-    text-align: center;
+.prob-block .intro-heading {
+    position: relative;
 }
 
-.ico-prob {
-    background-color: #0082c0;
-    padding: 6px 10px 4px 10px;
+.prob-block .intro-heading :after {
+    content: "";
+    display: inline-flex;
+    align-items: center;
+    margin-top: -10px;
+    width: 30vw;
+    border-top: 5px dotted #0082c0;
+    /* background: #000; */
+    left: 0;
+
+    /* position: absolute; */
+}
+
+.intro-heading span {
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 10px;
+}
+
+.prob-block h1 {
+    /* text-align: center; */
+}
+
+.ico-prob {}
+
+.expand {
+    padding: 2px 10px 2px 10px;
     color: white;
+    background-color: #0082c0;
     border-radius: 100%;
 
 }
@@ -293,8 +323,37 @@ input {
 }
 
 .prob-ul li {
-    list-style: disc;
+    list-style: none;
+}
+
+.sol-blk {
     background-color: #e5f2f9;
+
+    border-radius: 10px;
+    cursor: pointer;
+
+
+}
+
+.sol-blk li img {
+    margin-right: 10px;
+    width: 10px;
+}
+
+.lop {
+
+    color: #0082c0;
+}
+
+.sol-blk li {
+    justify-content: space-between;
+    display: flex;
+    padding-bottom: 0 !important;
+    padding: 15px 15px;
+    margin: 20px 0;
+    color: #0082c0;
+    font-size: 20px;
+    align-items: center;
 }
 
 ul li::marker {
@@ -302,8 +361,11 @@ ul li::marker {
 }
 
 .prob-block {
+
     min-height: 370px;
+
 }
+
 
 .prob-footer {
     /* position: absolute;
@@ -489,4 +551,14 @@ ul li::marker {
     align-items: center;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
+}
+
+@media (max-width:1024px) {
+    .container-width {
+        width: 95vw;
+    }
+
+    .logo img {
+        width: 381px;
+    }
 }

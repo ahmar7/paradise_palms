@@ -13,6 +13,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
 
   <body>
@@ -35,7 +37,7 @@
           </ul>
         </div>
       </div>
-      <div class="header-main">
+      <!-- <div class="header-main">
         <div class="header-flex container-width">
           <div class="left-text">
             <h1>Welcome to Paradise Palms</h1>
@@ -51,7 +53,7 @@
           <div class="itro-img">
             <img src="./img/intro.jpg" alt="" />
           </div>
-          <div class="intro-desc">
+          <div class="intro-desc" data-aos="fade-up">
             <h1 class="intro-heading">Introduction to BTC Ordinal NFTs</h1>
 
             <p
@@ -67,46 +69,14 @@
         </div>
       </div>
       <div class="adv-btc">
-        <!-- <svg
-          class="svg-rotate"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1440 320"
-        >
-          <path
-            fill="white "
-            fill-opacity="1"
-            d="M0,64L40,101.3C80,139,160,213,240,208C320,203,400,117,480,106.7C560,96,640,160,720,202.7C800,245,880,267,960,245.3C1040,224,1120,160,1200,165.3C1280,171,1360,245,1400,282.7L1440,320L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
-          ></path>
-        </svg> -->
-        <!-- <svg
-
-          id="wave"
-          class="svg-rotate"
-          style="transform: rotate(180deg); transition: 0.3s"
-          viewBox="0 0 1440 180"
-          version="1.1"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <defs>
-            <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
-              <stop stop-color="rgba(0, 130, 192, 1)" offset="0%"></stop>
-              <stop stop-color="rgba(0, 130, 192, 1)" offset="100%"></stop>
-            </linearGradient>
-          </defs>
-          <path
-            style="transform: translate(0, 0px); opacity: 1"
-            fill="white"
-            d="M0,90L24,96C48,102,96,114,144,105C192,96,240,66,288,51C336,36,384,36,432,48C480,60,528,84,576,90C624,96,672,84,720,66C768,48,816,24,864,12C912,0,960,0,1008,15C1056,30,1104,60,1152,60C1200,60,1248,30,1296,18C1344,6,1392,12,1440,27C1488,42,1536,66,1584,72C1632,78,1680,66,1728,57C1776,48,1824,42,1872,51C1920,60,1968,84,2016,102C2064,120,2112,132,2160,135C2208,138,2256,132,2304,114C2352,96,2400,66,2448,48C2496,30,2544,24,2592,27C2640,30,2688,42,2736,57C2784,72,2832,90,2880,102C2928,114,2976,120,3024,129C3072,138,3120,150,3168,147C3216,144,3264,126,3312,105C3360,84,3408,60,3432,48L3456,36L3456,180L3432,180C3408,180,3360,180,3312,180C3264,180,3216,180,3168,180C3120,180,3072,180,3024,180C2976,180,2928,180,2880,180C2832,180,2784,180,2736,180C2688,180,2640,180,2592,180C2544,180,2496,180,2448,180C2400,180,2352,180,2304,180C2256,180,2208,180,2160,180C2112,180,2064,180,2016,180C1968,180,1920,180,1872,180C1824,180,1776,180,1728,180C1680,180,1632,180,1584,180C1536,180,1488,180,1440,180C1392,180,1344,180,1296,180C1248,180,1200,180,1152,180C1104,180,1056,180,1008,180C960,180,912,180,864,180C816,180,768,180,720,180C672,180,624,180,576,180C528,180,480,180,432,180C384,180,336,180,288,180C240,180,192,180,144,180C96,180,48,180,24,180L0,180Z"
-          ></path>
-        </svg> -->
-
+       
         <div class="curve-img">
           <img src="./img/curve.png" alt="" />
         </div>
         <div class="container-width adv-inner">
           <h1 class="btc-head">Potential Advantages of BTC NFTs</h1>
           <div class="flex-adv">
-            <div class="adv-indiv">
+            <div class="adv-indiv" data-aos="zoom-in-up">
               <div class="adv-ico">
                 <img src="./img/traproot.png" alt="" />
               </div>
@@ -117,7 +87,7 @@
                 can now be on the BTC blockchain</p
               >
             </div>
-            <div class="adv-indiv left-mar">
+            <div class="adv-indiv left-mar" data-aos="zoom-in-up">
               <div class="adv-ico">
                 <img src="./img/traproot.png" alt="" />
               </div>
@@ -132,33 +102,47 @@
       <div class="prob-sol">
         <div class="prob-flex container-width-2">
           <div class="prob-block">
-            <h1 class="intro-heading" >
-              The Problem  
-            </h1>
-            <p  
+            <h1 class="intro-heading"> The Problem <span></span></h1>
+            <p
               >Even though there is a high demand for BTC Ordinals, there are
               currently no marketplaces. All trades are peer to peer, which lead
               to inconvenience and mistrust.</p
             >
           </div>
-          <div class="bond">
-            <img src="./img/line.png" alt="" />
-          </div>
+          
           <div class="prob-block">
-            <h1   class="intro-heading">
-              The Solution  
-            </h1>
-            <div class="prob-ul  " >
+            <h1 class="intro-heading"> The Solution </h1>
+            <div class="prob-ul">
               <ul>
-                <li
-                  >Pioneer Marketplace - The first marketplace to buy and sell
-                  BTC ordinal NFTs with Ethereum on the BTC blockchain
-                </li>
-                <li>
-                  Ease of Use - Use wallets that you already have such as Meta
-                  Mask
-                </li>
-                <li> Privacy - No KYC required. Stay safe and anonymous.</li>
+                <div class="sol-blk">
+                  <li onclick="toggleProb()">
+                    <span> Pioneer Marketplace </span>
+                    <span id="plus" class="expand">+</span>
+                  </li>
+                  <div id="prob" class="hidden lop">
+                    - The first marketplace to buy and sell BTC ordinal NFTs
+                    with Ethereum on the BTC blockchain
+                  </div>
+                </div>
+                <div class="sol-blk">
+                  <li onclick="toggleProb1()">
+                    <span> Ease of Use </span>
+                    <span id="plus1" class="expand">+</span>
+                  </li>
+                  <div id="prob1" class="hidden lop">
+                    Use wallets that you already have such as Meta Mask
+                  </div>
+                </div>
+
+                <div class="sol-blk">
+                  <li onclick="toggleProb2()">
+                    <span> Privacy </span>
+                    <span id="plus2" class="expand">+</span>
+                  </li>
+                  <div id="prob2" class="hidden lop">
+                    No KYC required. Stay safe and anonymous.
+                  </div>
+                </div>
               </ul>
             </div>
           </div>
@@ -172,14 +156,14 @@
           <div class="container-width-2">
             <h1 class="rp-heading"> ROADMAP </h1>
             <div class="roadmap-flex">
-              <div class="roadmap-block">
+              <div class="roadmap-block" data-aos="fade-right" data-aos-delay="150">
                 <h1>Q1 <img src="./img/rp-line.png" alt="" /></h1>
                 <p
                   >Release $PPALM <br />
                   utility token
                 </p>
               </div>
-              <div class="roadmap-block">
+              <div class="roadmap-block" data-aos="fade-right" data-aos-delay="250">
                 <h1>Q2 <img src="./img/rp2.png" alt="" /></h1>
                 <p
                   >Networking and <br class="desk" />
@@ -191,11 +175,11 @@
                   Palms Marketplace<br class="desk" />
                 </p>
               </div>
-              <div class="roadmap-block">
+              <div class="roadmap-block" data-aos="fade-right"data-aos-delay="350">
                 <h1>Q3 <img src="./img/rp3.png" alt="" /></h1>
                 <p>Coming Soon </p>
               </div>
-              <div class="roadmap-block">
+              <div class="roadmap-block" data-aos="fade-right" data-aos-delay="450">
                 <h1>Q4 </h1>
                 <p
                   >Satoshi’s wish <br />
@@ -265,7 +249,7 @@
         <hr class="horizontal-line" />
         <div class="container-width">
           <h1 class="intro-heading">Token Allocation</h1>
-          <div class="chart">
+          <div class="chart" data-aos="zoom-in-up"  data-aos-delay="250">
             <img src="./img/chart.png" alt="" />
           </div>
         </div>
@@ -285,7 +269,29 @@
       </div>
       <hr class="footer-line" />
       <p class="f-last">© 2023 Paradise Palms. All rights reserved</p>
-    </div>
+    </div> -->
   </body>
   <script src="./js/app.js"></script>
+  <script>
+    AOS.init({
+      // Global settings:
+      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
+      initClassName: "aos-init", // class applied after initialization
+      animatedClassName: "aos-animate", // class applied on animation
+      useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+      debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+      throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      offset: 200, // offset (in px) from the original trigger point
+      delay: 100, // values from 0 to 3000, with step 50ms
+      duration: 900, // values from 0 to 3000, with step 50ms
+      easing: "ease-in-out", // default easing for AOS animations
+      once: true, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+      anchorPlacement: "top-center", // defines which position of the element regarding to window should trigger the animation
+    });
+  </script>
 </html>
