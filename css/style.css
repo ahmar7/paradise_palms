@@ -25,7 +25,7 @@
 }
 
 *, html {
-    overflow-x: hidden !important;
+    /* overflow-x: hidden !important; */
 }
 
 body {
@@ -509,6 +509,10 @@ ul li::marker {
     padding: 60px 0 20px 0;
 }
 
+.mbl-only {
+    display: none;
+}
+
 .footer-flex {
     display: flex;
     flex-direction: row;
@@ -558,7 +562,17 @@ ul li::marker {
     font-size: 1rem;
 }
 
+@media (min-width:1550px) {
+    .prob-block .intro-heading :after {
+        width: 35vw;
+    }
+}
+
 @media (max-width:1300px) {
+    .prob-block .intro-heading :after {
+        width: 25vw;
+    }
+
     .right-img img {
         width: 400px;
     }
@@ -573,6 +587,14 @@ ul li::marker {
 }
 
 @media (max-width:1024px) {
+    .curve-img {
+        overflow-x: hidden !important;
+    }
+
+    .prob-block .intro-heading :after {
+        width: 20vw;
+    }
+
     .itro-img img {
         width: 350px;
     }
@@ -613,6 +635,10 @@ ul li::marker {
 
     .logo img {
         width: 300px;
+    }
+
+    .prob-block .intro-heading :after {
+        width: 15vw;
     }
 }
 
@@ -693,6 +719,34 @@ ul li::marker {
 
     .intro-desc .intro-heading {
         font-size: 1.4rem;
+    }
+
+    .prob-flex {
+        flex-direction: column;
+    }
+
+    .prob-block {
+        width: 100%;
+    }
+
+    .intro-heading span {
+        display: none;
+    }
+
+    .prob-block {
+        height: auto;
+        min-height: auto;
+    }
+
+    .mbl-only {
+        display: block;
+    }
+
+    .mbl-only {
+        border-left: 4px dotted #0082c0;
+        height: 200px;
+        text-align: center;
+        margin: 0 auto;
     }
 }
 
