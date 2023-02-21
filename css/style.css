@@ -746,7 +746,11 @@ ul li::marker {
         border-left: 4px dotted #0082c0;
         height: 200px;
         text-align: center;
-        margin: 0 auto;
+        margin: 20px auto;
+    }
+
+    .prob-block .intro-heading {
+        margin-top: 0 !important;
     }
 }
 
