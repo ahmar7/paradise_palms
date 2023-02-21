@@ -460,7 +460,7 @@ ul li::marker {
 
 .tokenomics {
     margin-top: 135px;
-    margin-bottom: 107px;
+    margin-bottom: 135px;
 }
 
 .tokenomics h1 {
@@ -493,6 +493,7 @@ ul li::marker {
 
 .table {
     margin-top: 40px;
+    margin-bottom: 135px;
 }
 
 .table-row {
