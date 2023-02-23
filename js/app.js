@@ -31,3 +31,12 @@ let toggleProb2 = () => {
   }
   prob.classList.toggle("hidden");
 };
+let runit = () => {
+  let loader = document.getElementById("loader");
+  let body = document.querySelector("body");
+  loader.style.display = "none";
+  body.style.overflow = "auto";
+};
+setTimeout(() => {
+  runit();
+}, 2500);
